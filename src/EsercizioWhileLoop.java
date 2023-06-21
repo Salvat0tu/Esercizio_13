@@ -9,7 +9,7 @@ public class EsercizioWhileLoop {
             daysToSell++;
             if (poundExchange > 1.15) {
                 poundsToSell -= poundsPerDay;
-                System.out.println("Day " + daysToSell + " Remainings days to sell : " + poundsToSell);
+                System.out.println("Day number " + daysToSell + ":" + " Remaining pounds to sell : " + poundsToSell);
             }
         }
         System.out.println("It took " + daysToSell + " to sell all the pounds");
